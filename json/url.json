@@ -1,0 +1,88 @@
+[
+    {
+        "tit": "资讯",
+        "list": [
+            {
+                "name": "V2EX",
+                "url": "https://v2ex.com/"
+            },
+            {
+                "name": "One",
+                "url": "http://reader.one/"
+            },
+            {
+                "name": "Readhub",
+                "url": "https://readhub.me/"
+            },
+            {
+                "name": "juejin",
+                "url": "https://juejin.im/timeline"
+            }
+        ]
+    },
+    {
+        "tit": "成长",
+        "list": [
+            {
+                "name": "SecWiki",
+                "url": "https://www.sec-wiki.com/"
+            },
+            {
+                "name": "Github",
+                "url": "https://github.com/"
+            },
+            {
+                "name": "Gitlab",
+                "url": "https://about.gitlab.com/"
+            },
+            {
+                "name": "腾讯云",
+                "url": "https://www.qcloud.com/"
+            }
+        ]
+    },
+    {
+        "tit": "生活",
+        "list": [
+            {
+                "name": "哔哩哔哩",
+                "url": "https://www.bilibili.com/"
+            },
+            {
+                "name": "豆瓣FM",
+                "url": "https://douban.fm/"
+            },
+            {
+                "name": "Steam",
+                "url": "http://store.steampowered.com/",
+                "img": "http://store.steampowered.com/favicon.ico"
+            },
+            {
+                "name": "MCBBS",
+                "url": "http://www.mcbbs.net/"
+            }
+        ]
+    },
+    {
+        "tit": "工具",
+        "list": [
+            {
+                "name": "Inobx",
+                "url": "https://inbox.google.com/",
+                "img": "https://ox.xizero.com/uploads/2017/06/inbox.png"
+            },
+            {
+                "name": "IFTTT",
+                "url": "https://ifttt.com/"
+            },
+            {
+                "name": "滴答清单",
+                "url": "https://www.dida365.com/"
+            },
+            {
+                "name": "Stack Overflow",
+                "url": "https://stackoverflow.com/"
+            }
+        ]
+    }
+]

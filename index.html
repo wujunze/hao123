@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>吴钧泽的导航网站</title>
+    <link rel="stylesheet" href="css/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <script src="./js/vue.js"></script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <div class="con">
+
+        <div class="head">
+            <img src="favicon.ico" alt="吴钧泽的导航网站" id="icon">吴钧泽的导航网站
+        </div>
+        <div id="view">
+                <div class="row" v-for="webs in xjson">
+                    <div class="block" v-for="web in webs.list">
+                        <img :src="getImage(web)" >
+                        <a :href="web.url" target="_blank" rel="noopener">
+                            {{web.name}}
+                        </a>
+                    </div>
+                </div>
+        </div>
+        <footer class="footer">
+            <a href="https://www.wujunze.com/">@wujunze.com</a><span>Since June 2017</span>
+            <!-- <a class="github-button" href="https://github.com/f12998765/SpeedDial" data-icon="octicon-star" data-style="mega" data-count-href="/f12998765/SpeedDial/stargazers" data-count-api="/repos/f12998765/SpeedDial#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star f12998765/SpeedDial on GitHub">Star</a>   -->
+        </footer>
+    </div>
+    <canvas id="bg" width="1366" height="702"></canvas>
+    <script src="js/index.js"></script>
+</body>
+</html>
