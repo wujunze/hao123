@@ -1,5 +1,30 @@
 [
     {
+        "tit": "我的网站",
+        "list": [
+            {
+                "name": "吴钧泽博客",
+                "url": "https://wujunze.com/",
+                "img": "https://wujunze.com/favicon.ico"
+            },
+            {
+                "name": "短网址服务",
+                "url": "http://url.wujunze.com",
+                "img": "http://url.wujunze.com/favicon.ico"
+            },
+            {
+                "name": "wooyun",
+                "url": "https://wujunze.com/wooyun/",
+                "img": "https://www.upyun.com/static/favicon-32x32.png"
+            },
+            {
+                "name": "百度一下",
+                "url": "https://wujunze.com/baidu/?q=吴钧泽",
+                "img": "https://www.baidu.com/favicon.ico"
+            }
+        ]
+    },
+    {
         "tit": "资讯",
         "list": [
             {
@@ -12,7 +37,8 @@
             },
             {
                 "name": "Readhub",
-                "url": "https://readhub.me/"
+                "url": "https://readhub.me/",
+                "img": "https://cdn.readhub.me/static/assets/png/readhub_logo.png"
             },
             {
                 "name": "juejin",
